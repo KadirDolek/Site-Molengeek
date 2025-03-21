@@ -25,11 +25,18 @@ header{
 
 .img1 {
     position: absolute;
-    top: 2px;
+    top: 1px;
     left: 0;
-    height: 35px;
+    height: 45px;
     opacity: 160%;
+    filter: brightness(200%);
+    clip: rect(auto, auto, 35px, auto);
 }
+.contain{
+    overflow: hidden;
+}
+
+
 .nav{
     display: flex;
     justify-content: space-around;
@@ -47,4 +54,14 @@ header{
     padding: 1vw;
     font-weight: bold;
     color: black;
+    text-decoration: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
 }
