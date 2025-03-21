@@ -56,6 +56,9 @@ header{
     display: flex;
     list-style-type: none;
 }
+.ul1>li::marker{
+    color: purple;
+}
 .menu li{
     padding: 1vw;
     font-weight: bold;
@@ -73,9 +76,11 @@ h1{
 }
 .ul1{
     margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8%;
 }
 .ul1 li{
-    margin-bottom: 15px;
+    margin-bottom: 3%;
 }
 .pg1, .pg2{
     margin-left: 10%;
@@ -97,8 +102,27 @@ footer{
     height: 30%;
     display: flex;
     align-items: center;
-    width: 7%;
+    width: 8%;
 }
 .foot1>div{
     margin-top: 3%;
 }
+.titre2{
+    margin-bottom: 3%;
+}
+.bug{
+    margin-bottom: 4%;
+}
+.imgf{
+    filter: brightness(200%) invert(1);
+    height: 20%;
+}
+.fcbk, .twt, .inst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: -40px;
+}
+
+
