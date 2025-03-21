@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+header{
+    height: 5vh;
+    background-color: purple;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    color: white;
+}
+.btn{
+    border-radius: 5px;
+    background: rgb(0,225,115);
+}
+
+.input1{
+    border-radius: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.img1 {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 35px;
+    opacity: 160%;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu li{
+    padding: 1vw;
+    font-weight: bold;
+    color: black;
+}
