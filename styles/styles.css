@@ -75,16 +75,16 @@ h1{
     font-weight:initial;
 }
 .ul1{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 7%;
     margin-bottom: 8%;
 }
 .ul1 li{
     margin-bottom: 3%;
 }
 .pg1, .pg2{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 footer{
     height: 25vh;
@@ -124,5 +124,18 @@ footer{
     gap: 5%;
     margin-top: -40px;
 }
+.menu > ul > li:nth-child(2) a {
+    position: relative; /* Ajout important */
+    display: inline-block; /* Pour que la largeur soit celle du texte */
+}
 
+.menu > ul > li:nth-child(2) a::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%; 
+    height: 2.5px;
+    background-color: black;
+}
 
