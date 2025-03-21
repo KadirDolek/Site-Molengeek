@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'MontSerrat';
+    src: url(../assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
 body{
     margin: 0;
+    font-family: 'MontSerrat', sans-serif;
+    font-weight: normal;
 }
 header{
     height: 5vh;
@@ -63,10 +69,13 @@ header{
 h1{
     display: flex;
     justify-content: center;
-    font-family:'Times New Roman', Times, serif;
+    font-weight:initial;
 }
 .ul1{
     margin-left: 10%;
+}
+.ul1 li{
+    margin-bottom: 15px;
 }
 .pg1{
     margin-left: 10%;
@@ -75,12 +84,15 @@ h1{
 footer{
     height: 25vh;
 }
-.foot2{
+.foot2, .foot1{
     display: flex;
     justify-content: center;
     align-self: center;
     background-color: rgb(56,56,56);
     height: 100%;
+    color: white;
+    gap: 8%;
+    
 }
 .img2{
     height: 30%;
