@@ -2,6 +2,7 @@
     font-family: 'MontSerrat';
     src: url(../assets/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
+
 body{
     margin: 0;
     font-family: 'MontSerrat', sans-serif;
@@ -141,3 +142,10 @@ footer{
     background-color: black;
 }
 
+
+.copyright{
+    position: absolute;
+    color: gray;
+    font-size: 8px;
+    transform: translateY(1400%);
+}
