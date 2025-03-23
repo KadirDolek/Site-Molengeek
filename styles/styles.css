@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'MontSerrat';
     src: url(../assets/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-family: 'Robot';
+    src: url(../assets/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
 body{
