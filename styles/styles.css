@@ -151,3 +151,7 @@ footer{
     font-size: 8px;
     transform: translateY(1400%);
 }
+.but, .ul1, .pg1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
