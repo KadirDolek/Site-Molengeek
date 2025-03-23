@@ -55,8 +55,6 @@ header{
 .contain{
     overflow: hidden;
 }
-
-
 .nav{
     display: flex;
     justify-content: space-around;
