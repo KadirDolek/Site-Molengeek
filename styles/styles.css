@@ -21,6 +21,7 @@ header{
 .btn{
     border-radius: 5px;
     background: rgb(0,225,115);
+    color: white;
 }
 
 .input1{
@@ -125,9 +126,10 @@ footer{
     margin-top: -40px;
 }
 .menu > ul > li:nth-child(2) a {
-    position: relative; /* Ajout important */
-    display: inline-block; /* Pour que la largeur soit celle du texte */
+    position: relative;  
+    display: inline-block; 
 }
+/* RAPPEL : La position relative est nécessaire dans le a aussi !!!!!  */
 
 .menu > ul > li:nth-child(2) a::before {
     content: '';
