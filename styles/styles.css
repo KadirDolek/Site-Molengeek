@@ -4,12 +4,22 @@
     font-family: 'Robot';
     src: url(../assets/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
 }
-
 body{
+    letter-spacing: 1px;
     margin: 0;
-    font-family: 'MontSerrat', sans-serif;
-    font-weight: normal;
 }
+
+.titre1, .menu, .titre2{
+    font-family: 'Robot', sans-serif;
+    font-weight: 300;
+}
+.p1{
+    margin: 0;
+    font-family: 'Robot', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
 header{
     height: 5vh;
     background-color: purple;
@@ -151,7 +161,7 @@ footer{
     font-size: 8px;
     transform: translateY(1400%);
 }
-.but, .ul1, .pg1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+.bug, .ul1, .pg1{
+    font-family: 'Robot', sans-serif;
+    font-weight: 400;
 }
