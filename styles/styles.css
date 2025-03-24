@@ -53,9 +53,6 @@ header{
     filter: brightness(200%);
     clip: rect(auto, auto, 35px, auto);
 }
-.contain{
-    overflow: hidden;
-}
 .nav{
     display: flex;
     justify-content: space-around;
@@ -149,7 +146,6 @@ footer{
     left: 0;
     width: 100%; 
     height: 2.5px;
-    background-color: black;
 }
 .copyright{
     position: absolute;
@@ -160,4 +156,7 @@ footer{
 .bug, .ul1, .pg1{
     font-family: 'Robot', sans-serif;
     font-weight: 400;
+}
+.menu > ul > li:nth-child(2) a:hover::before {
+    background-color: rgb(163, 53, 163);
 }
